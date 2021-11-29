@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/skins/color-1.css') }}">
     <title>Document</title>
@@ -81,5 +82,49 @@
         </div>
     </section>
     <!-- home section end -->
+
+    <!-- about section start-->
+    <section class="about-section section">
+        <div class="container">
+            <div class="row">
+                <div class="section-title">
+                    <h2 data-heading="main info">About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="about-img">
+                    <div class="img-box inner-shadow">
+                        <img src="{{ url_for('static', filename='images/profile-pic.png') }}" class="outer-shadow" alt="profile-pic">
+                    </div>
+                    <!-- social links start -->
+                    <div class="social-links">
+                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="outer-shadow hover-in-shadow"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <!-- social links end -->
+                </div>
+                <div class="about-info">
+                    <p><span>Hi! My name is The Zhannur. I am a Web Developer.</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Tempora expedita eius dicta excepturi cum corporis quisquam, 
+                    distinctio libero! Autem voluptatum accusantium quia corporis 
+                    minus est cupiditate vitae veniam quisquam sit omnis culpa 
+                    quaerat repudiandae quasi iusto fugiat, impedit, voluptate 
+                    eaque ullam, at id?</p>
+                    <p>Dignissimos culpa quos veritatis excepturi? 
+                    Odio possimus eaque quisquam labore alias ipsum numquam quae 
+                    ex esse. Doloribus numquam odit velit! Fugiat aspernatur quia 
+                    earum atque ab delectus!</p>
+                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">Download CV</a>
+                    <a href="#" class="btn-1 outer-shadow hover-in-shadow">Hire Me</a>
+                </div>
+            </div>
+            <!-- about tabs start -->
+            <!-- about tabs end -->
+        </div>
+    </section>
+    <!-- about section end-->
 </body>
 </html>
